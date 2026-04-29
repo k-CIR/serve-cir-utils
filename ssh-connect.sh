@@ -89,4 +89,4 @@ ssh -t \
     -o BatchMode=no \
     -L "${PORT}:localhost:${PORT}" \
     "${USERNAME}@${REMOTE_HOST}" \
-    "cd /data/projects/${PROJECT}/bids-utils-mr && PORT=${PORT} python3 server.py" 
+    "cd /data/projects/${PROJECT}/cir-utils && PORT=${PORT} python3 server.py" 
